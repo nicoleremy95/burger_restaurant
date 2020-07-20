@@ -1,0 +1,26 @@
+{
+  "name": "burger_restaurant",
+  "version": "1.0.0",
+  "description": "burger restaurant using express mysql express handlebars",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicoleremy95/burger_restaurant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicoleremy95/burger_restaurant/issues"
+  },
+  "homepage": "https://github.com/nicoleremy95/burger_restaurant#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mysql": "^2.18.1"
+  }
+}
