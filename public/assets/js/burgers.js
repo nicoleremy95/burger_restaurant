@@ -26,7 +26,7 @@ $(function() {
     event.preventDefault();
 
     var newBurger = {
-      burger: $(".ca").val().trim(),
+      burger: $(".ca").val().trim().toUpperCase(),
       devoured: $("[name=devoured]:checked").val()
     };
 

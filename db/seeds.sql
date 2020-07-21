@@ -1,3 +1,3 @@
-INSERT INTO burgers (burger, devoured) VALUES ('Big Blue', false);
-INSERT INTO burgers (burger, devoured) VALUES ('All American', true);
-INSERT INTO burgers (burger, devoured) VALUES ('Classic', true);
+INSERT INTO burgers (burger, devoured) VALUES ('BIG BLUE', false);
+INSERT INTO burgers (burger, devoured) VALUES ('ALL AMERICAN', true);
+INSERT INTO burgers (burger, devoured) VALUES ('CLASSIC', true);
