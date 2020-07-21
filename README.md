@@ -7,6 +7,8 @@ burger restaurant using express mysql express handlebars
 ### Description
 This application creates a burger logger using MySQL, Node, Express, Express Handlebars, ORM, and an MVC design pattern. You can create a burger, decided if you want to eat it right away or wait, and then once it is logged you can choose to eat it, recreate it, or delete it. This application has full CRUD functionality. 
 
+This application is deployed to Heroku.
+
     
 ## Table of Contents
 1. [Installation](#installation)
@@ -20,23 +22,23 @@ This application creates a burger logger using MySQL, Node, Express, Express Han
 
 ### Step 1
 
-![step 1](assets/step1.png)
+![step 1](assets/images/step1.png)
 
 ### Step 2
 
-![step 1](assets/step2.png)
+![step 1](assets/images/step2.png)
 
 ### Step 3
 
-![step 1](assets/step3.png)
+![step 1](assets/images/step3.png)
 
 ### Step 4
 
-![step 1](assets/step4.png)
+![step 1](assets/images/step4.png)
 
 ### Step 5
 
-![step 1](assets/step5.png)
+![step 1](assets/images/step5.png)
 
 
 
@@ -62,6 +64,6 @@ Please make sure to update tests as appropriate.
 1. [Github](https://github.com/nicoleremy95)
 
 ### Link to Deployed Application
-1. [EAT DA BURGER](https://drive.google.com/file/d/1QwCm1s24y60vBc7kDLJNDbWrIdjgMnMF/view)
+1. [EAT DA BURGER](https://ner-burger.herokuapp.com/)
     
      
