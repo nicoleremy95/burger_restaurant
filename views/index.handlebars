@@ -6,31 +6,34 @@
 </div>
 
 <div class= "container">
-  <div class="row">
-    <h2>add a burger</h2>
-  </div>
-  
-  <div class="row"></div>
-    <form class="create-form">
+  <div class="row yummy">
+    <div class="col">
+    <h2>ADD A BURGER</h2>
 
+    <form class="create-form">
       <div class="form-group">
-        <label for="ca">Burger Name:</label>
+        <label for="ca">BURGER NAME:</label>
         <input type="text" class="ca" name="burger">
       </div>
 
       <div class="form-group">
-        <label for="devoured">devoured?</label><br>
-        <input type="radio" name="devoured" value="1" checked> already finshed that one!<br>
-        <input type="radio" name="devoured" value="0"> Please eat me!
+        <label for="devoured">DEVOURED?</label><br>
+        <input type="radio" name="devoured" value="1" checked> ALREADY FINSIHED THAT ONE!<br>
+        <input type="radio" name="devoured" value="0"> PLEASE EAT ME!
       </div>
 
-      <button type="submit">add burger</button>
+      <button type="submit" class="btn btn-dark">ADD A BURGER</button>
     </form>
+    </div>
+
+    <div class="col">
+      <img src="https://cdn1.iconfinder.com/data/icons/restaurants-and-food/98/bugrer-512.png" alt="">
+    </div>
   </div>
 
   <div class="row">
-    <div class="col">
-      <h2>ready to eat</h2>
+    <div class="col yummy">
+      <h2>READY TO EAT</h2>
         <ul style="list-style-type: none;">  
           {{#each burgers}}    
             {{#unless devoured}}
@@ -39,9 +42,9 @@
           {{/each}}
         </ul>
     </div>
-    
-    <div class="col">
-      <h2>already finshed</h2>
+
+    <div class="col yummy">
+      <h2>ALREADY FINSHED</h2>
         <ul style = "list-style-type: none">
           {{#each burgers}}
             {{#if devoured}}
